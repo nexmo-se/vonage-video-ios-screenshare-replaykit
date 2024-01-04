@@ -11,11 +11,13 @@ import OpenTok
 import ReplayKit
 
 class ScreenCapturer: NSObject, OTVideoCapture {
+    var videoContentHint: OTVideoContentHint
+    
     var videoCaptureConsumer: OTVideoCaptureConsumer?
     var capturing = false
     
     override init() {
-        
+        videoContentHint = .motion
     }
     
     // MARK: - OTVideoCapture protocol

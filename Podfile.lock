@@ -1,16 +1,16 @@
 PODS:
-  - OpenTok (2.18.1)
+  - OTXCFramework (2.27.0)
 
 DEPENDENCIES:
-  - OpenTok (= 2.18.1)
+  - OTXCFramework (= 2.27.0)
 
 SPEC REPOS:
   trunk:
-    - OpenTok
+    - OTXCFramework
 
 SPEC CHECKSUMS:
-  OpenTok: 2a816f5d77fbf2e2ebb5aec841bd21fb7dc7737b
+  OTXCFramework: ad02cf0bcab6260f7058ffafec61ef757e956f84
 
-PODFILE CHECKSUM: 5ca95875110c190d1ac8e4a3f7f84450305115dd
+PODFILE CHECKSUM: 9dbbc01aafdfe31f494471a27f1deace02e7495e
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3

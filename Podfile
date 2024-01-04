@@ -1,6 +1,6 @@
-platform :ios, '9.0'
+platform :ios, '13.0'
 use_frameworks!
 
 target 'Screen-Sharing' do
-  pod 'OpenTok', '2.18.1'
+  pod 'OTXCFramework', '2.27.0'
 end
